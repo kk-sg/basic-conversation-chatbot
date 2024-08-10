@@ -79,7 +79,7 @@ def get_api_key() -> str:
 def main() -> None:
     """Main function to set up and run the Streamlit application."""
     st.set_page_config(page_title="Simple AI Chatbot", layout="wide")
-    st.header("OpenAI LLM Application")
+    st.header("OpenAI LLM Application: Simple AI Chatbot")
 
     initialize_chat_history()
 
