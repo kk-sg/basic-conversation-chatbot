@@ -84,7 +84,7 @@ streamlit run better_layout.py
 
 4. Start chatting with the AI!
 
-Alternatively, you can use the live demo of the improved version at [https://basic-conversation-chatbot.streamlit.app](https://basic-conversation-chatbot.streamlit.app)
+Alternatively, you can use the live demo of the improved version at [https://basic-conversation-chatbot.streamlit.app/](https://basic-conversation-chatbot.streamlit.app/)
 
 ## Security Note
 

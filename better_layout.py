@@ -7,22 +7,16 @@ in a user-friendly interface with an improved layout.
 """
 
 from typing import List, Tuple, Optional
-import os
-from dotenv import load_dotenv
 import streamlit as st
 from openai import OpenAI
-
-# Load environment variables
-load_dotenv()
-
-# Initialize OpenAI client
-client = OpenAI()
-
 
 def get_openai_response(question: str, api_key: str) -> str:
     """Send a question to OpenAI's GPT-3.5-turbo model and return the response."""
     try:
-        client.api_key = api_key
+
+        # Initialize OpenAI client with the API key
+        client = OpenAI(api_key=api_key)
+        
         response = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
