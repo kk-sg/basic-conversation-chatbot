@@ -42,8 +42,8 @@ The improved version enhances the user experience with:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/openai-streamlit-chatbot.git
-cd openai-streamlit-chatbot
+git clone https://github.com/kk-sg/basic-conversation-chatbot.git
+cd basic-conversation-chatbot
 ```
 
 2. Create a virtual environment (optional but recommended):
